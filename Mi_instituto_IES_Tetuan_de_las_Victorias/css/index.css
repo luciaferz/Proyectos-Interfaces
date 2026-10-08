@@ -1,0 +1,134 @@
+/* Estilos específicos para la página de Inicio / Experiencia (index.html) */
+
+.experience-section {
+  background-color: transparent;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-size: 18px;
+  color: var(--color-text-dark);
+}
+
+.image-card {
+  width: 100%;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+}
+
+.image-card img {
+  width: 100%;
+  height: auto;
+  max-height: 520px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Sección Favicon Expandida */
+.favicon-section {
+  margin-top: 4.5rem;
+}
+
+.favicon-visual-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+/* Tarjeta Principal Favicon */
+.favicon-large-card {
+  width: 100%;
+  max-width: 480px;
+  aspect-ratio: 1 / 1;
+  background-color: var(--color-cream-card);
+  border-radius: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3.5rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+.favicon-large-card img {
+  width: 85%;
+  height: 85%;
+  object-fit: contain;
+}
+
+/* Fila de previsualización en distintos tamaños */
+.favicon-sizes-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 2.5rem;
+  width: 100%;
+  max-width: 480px;
+}
+
+.favicon-size-box {
+  background-color: var(--color-cream-card);
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.15rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+.favicon-size-box.box-lg {
+  width: 125px;
+  height: 125px;
+}
+
+.favicon-size-box.box-md {
+  width: 85px;
+  height: 85px;
+}
+
+.favicon-size-box.box-sm {
+  width: 60px;
+  height: 60px;
+}
+
+.favicon-size-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.favicon-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Subtítulos dentro de Favicon (Iniciales, Icono, Tipografía, Colores) — Beau 36px en AZUL OSCURO (#1D425E) */
+.favicon-detail-item h3 {
+  font-family: var(--font-beau);
+  font-size: 36px;
+  color: var(--bg-header); /* #1D425E Azul Oscuro */
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
+}
+
+.favicon-detail-item p {
+  font-family: var(--font-gravidis);
+  font-size: 18px;
+  line-height: 1.65;
+  color: var(--color-text-dark);
+}
+
+.favicon-summary {
+  margin-top: 0.75rem;
+  font-family: var(--font-gravidis);
+  font-size: 18px;
+  line-height: 1.65;
+  color: var(--color-text-dark);
+}
